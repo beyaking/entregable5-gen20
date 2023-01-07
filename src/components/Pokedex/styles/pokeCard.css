@@ -577,7 +577,7 @@
 }
 
 .color-unknown {
-    color: #000000;
+    color: #515151;
 }
 
 .badge-unknown {
@@ -610,9 +610,9 @@
 }
 
 .badge-shadow {
-    background-color: #828282;
+    background-color: #E5E5E5;
     color: black;
     padding: 4px 8px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 20px;
   }

@@ -47,6 +47,8 @@ const PokedexInfo = () => {
             
           </ul>
 
+          
+
           <ul className="poke-card__stats-container__datail">
             
               <li className="poke-card__stat">
@@ -57,7 +59,10 @@ const PokedexInfo = () => {
         </ul>
               </li>
 <li><p></p></li>
+
+
               <li className="poke-card__stat">
+                
                 <span className="poke-card__label">Abilities</span>
                 <ul className="poke-card__types-container">
         <li className={`poke-card__type badge-unknown`}>{pokemon?.abilities[0]?.ability.name} </li>
@@ -70,6 +75,7 @@ const PokedexInfo = () => {
        
         
       </section>
+      <h3 className={`poke-card__name__detail2 color-unknown `}>Stats </h3>
       <footer className="poke-card__footer">
         <div>
           <ul className="poke-card__stats-container">
@@ -86,6 +92,27 @@ const PokedexInfo = () => {
 
           
         </div>
+
+        <h3 className={`poke-card__name__detail2 color-unknown `}>Movements </h3>
+
+        <ul className="poke-card__stats-container2 ">
+            {pokemon?.moves.map((move) => (
+              <li className="poke-card__stat" key={move.move.name}>
+                <span className="badge-shadow">{move.move.name}</span>
+               
+                
+              </li>
+            
+            
+            ))}
+          </ul>
+
+        <div>
+          
+
+          
+        </div>
+
       </footer>
     </article>
 
