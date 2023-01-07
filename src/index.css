@@ -1,0 +1,36 @@
+@import url(//db.onlinewebfonts.com/c/d2d21cf0ee4c1d969d8a4dccc587ab26?family=Flexo+Medium);
+/* --- RESET ----*/
+*{
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Flexo Medium', sans-serif;
+    margin: 0;
+    background: #fff url(./bg.png);
+}
+
+h1, h2, h3, h4, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input {
+    outline: 0;
+}
+
